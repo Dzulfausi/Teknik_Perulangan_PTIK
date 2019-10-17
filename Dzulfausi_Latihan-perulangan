@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main(){
+  int x,y,z,a;
+  cout<<"Masukkan jumlah baris! : ";
+  cin>>z;
+  for (x=0; x<z; x++){
+    for (y=x; y<=z; y++){
+      cout<<" ";
+    }
+    for (a=0; a<=x; a++){
+      cout<<"*";
+    }
+    for (a=1; a<=x; a++){
+      cout<<"*";
+    }
+    cout<<endl;
+    }
+    return 0;
+}
